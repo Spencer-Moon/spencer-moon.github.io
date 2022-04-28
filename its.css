@@ -1,0 +1,168 @@
+
+body
+{
+    background-color: black;
+}
+
+button.homepage
+{
+    border-radius: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 7px;
+    padding-top: 9px;
+    color: white;
+    width: 100%;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    width: 150px;
+    height: 100px;
+    font-family: Avenir, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: top;
+ 
+    
+}
+
+br.buttonLineBreak
+{
+    clear: left;
+}
+
+
+#buttonContainer
+{
+    display: block;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    width: 655px;
+}
+
+#background
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    filter: brightness(85%) blur(6px);
+
+}
+
+.homepage:hover, .dropdownOption:hover
+{
+    background-color: rgba(255, 255, 255, 0.22) !important;
+}
+
+#WebsiteLogo
+{
+    color: white;
+    font-family: Avenir, Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 10;
+    margin: 0;
+   
+}
+
+#WebpageHeader
+{
+    color: white;
+    font-family: Avenir, Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.dropdownMenu
+{
+    display: inline;
+    
+}
+
+.dropdownMenu a button.homepage
+{
+    margin-bottom: 0;
+}
+
+.dropdownMenu .dropdownContent 
+{
+    display: none;
+    z-index: 1;
+}
+
+.dropdownMenu #menu1, .dropdownMenu #menu2, .dropdownMenu #menu3
+{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.dropdownMenu #menu2
+{
+    left: 178px;
+    /*display: block;  /*testing only*/
+    
+}
+
+.dropdownMenu #menu3
+{
+    left: 355px;
+}
+
+
+/*.dropdownMenu #menu2
+{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+}*/
+
+
+
+.dropdownMenu .dropdownContent a button
+{
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 8px;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 0px;
+    padding-top: 2px;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    width: 300px;
+    font-family: Avenir, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+
+
+
+@media (min-height: 680px)
+{
+    #dropdown1:hover #menu1, #dropdown2:hover #menu2, #dropdown3:hover #menu3
+    {
+        display: block !important;
+    
+    }   
+}   
+
+.bottomOption
+{
+    margin-bottom: 10px !important;
+}
+
