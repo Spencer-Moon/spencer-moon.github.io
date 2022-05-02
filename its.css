@@ -198,3 +198,12 @@ br.buttonLineBreak
     margin-bottom: 10px !important;
 }
 
+#logoImage
+{
+    position: absolute;
+    display: block;
+    top: 12px;
+    left: 12px;
+    width: 285px;
+    margin-top: 0;
+}
