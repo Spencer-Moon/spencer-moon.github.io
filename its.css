@@ -118,6 +118,12 @@ br.buttonLineBreak
     margin-top: 50px;
     margin-bottom: 10px;
     display: block;
+    margin-right: auto;
+    width: 350px;
+    margin-left: auto;
+    
+
+    
 }
 
 .dropdownMenu
@@ -206,4 +212,28 @@ br.buttonLineBreak
     left: 12px;
     width: 285px;
     margin-top: 0;
+}
+
+#back
+{
+    width: 25px;
+    margin: 0;
+    display: block;
+    position: relative;
+    float: left;
+    margin-top: -19px;
+}
+
+#backLink
+{
+    text-align: center;
+}
+
+#contentContainer
+{
+    width: 478px;
+    margin: auto;
+    margin-top: -15px;
+    text-align: center;
+    
 }
